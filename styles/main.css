@@ -1,0 +1,88 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+* {
+  font-family: roboto;
+}
+ul {
+  font-family: roboto;
+}
+
+body {
+  background-color: rgb(215, 210, 210);
+  padding: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+main {
+  background-color: rgb(246, 243, 243);
+  border-radius: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  color: rgb(77, 68, 68);
+  font-size: 20px;
+  margin: 10px 0;
+}
+h4 {
+    color: rgb(3, 73, 127);
+    line-height: 1.1;
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  margin: 20px;
+  height: 150px;
+  transition: 1s ease;
+}
+
+img:hover {
+  transition: 1s ease;
+  height: 170px;
+
+}
+
+span {
+  color: rgb(130, 132, 130);
+  font-weight: 100;
+  
+}
+a{
+    transition: 0.5s ease;
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 79, 132);
+    transition: 0.5s ease;
+    font-size: 25px;
+}
+
+ul {
+  margin: 10px 15px;
+  list-style-type: disc;
+}
+li {
+    line-height: 1.1;
+    margin: 0 0 10px;
+}
+
+#fn1 {
+  color: rgb(10, 9, 9);
+  font-weight: bold;
+}
