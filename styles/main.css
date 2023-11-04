@@ -1,5 +1,5 @@
 @font-face {
-  font-family: roboto;
+  font-family: "roboto";
   src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
@@ -18,7 +18,8 @@ main {
   background-color: rgb(246, 243, 243);
   border-radius: 20px;
   display: flex;
-}
+  justify-content: space-between;
+}            
 .section-wrapper{
   width: 70%;
 }
@@ -26,6 +27,8 @@ main {
   background-color: rgb(36, 38, 168);
   width: 25%;
   padding: 5px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
 }
 #abc {
   margin: 10px 0;
